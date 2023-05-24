@@ -28,6 +28,7 @@ sudo apt remove docker docker.io containerd runc
 <img width="851" alt="Screenshot 2023-05-25 at 00 16 02" src="https://github.com/Mamiololo01/Fundamentals_of_Docker/assets/67044030/f07747f6-0501-4589-8d79-65b7afdf710f">
  		 
  		 
+
 Adding Docker’s official GPG signing key:
 
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
