@@ -50,10 +50,16 @@ sudo apt install docker-ce docker-ce-cli containerd.io
 checking its status
 
 sudo systemctl status docker
+
+<img width="859" alt="Screenshot 2023-05-25 at 00 22 00" src="https://github.com/Mamiololo01/Fundamentals_of_Docker/assets/67044030/8bbb5bd6-ac81-44cf-b774-c5b02587090e">
  		 
 adding the current user to the docker group to be able to run the docker command
 
 sudo usermod -aG docker ${USER}
+
+<img width="844" alt="Screenshot 2023-05-25 at 00 23 39" src="https://github.com/Mamiololo01/Fundamentals_of_Docker/assets/67044030/a8623651-5994-465f-8e99-72ce55772086">
+
+
  		
  		 
 testing the entire installing
