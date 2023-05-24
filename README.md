@@ -69,6 +69,8 @@ sudo systemctl status docker
 
 <img width="859" alt="Screenshot 2023-05-25 at 00 22 00" src="https://github.com/Mamiololo01/Fundamentals_of_Docker/assets/67044030/8bbb5bd6-ac81-44cf-b774-c5b02587090e">
  		 
+
+
 Adding the current user to the docker group to be able to run the docker command
 
 sudo usermod -aG docker ${USER}
@@ -90,6 +92,8 @@ docker container run hello-world
 
 <img width="860" alt="Screenshot 2023-05-25 at 00 26 04" src="https://github.com/Mamiololo01/Fundamentals_of_Docker/assets/67044030/46f7e872-1424-4748-8fd8-59f81bcfe1aa">
  		 
+
+
 Getting help
 
 Docker help
