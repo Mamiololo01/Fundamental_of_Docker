@@ -21,36 +21,36 @@ When running a container, it uses an isolated filesystem. This custom filesystem
 Installing Docker on Ubuntu 
  		 
 
-uninstalling any old versions
+Uninstalling any old versions
 
 sudo apt remove docker docker.io containerd runc
  		 
  		 
-adding Docker’s official GPG signing key:
+Adding Docker’s official GPG signing key:
 
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
  		 
  		 
-adding the official docker repository
+Adding the official docker repository
 
 sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
 
 <img width="858" alt="Screenshot 2023-05-25 at 00 19 24" src="https://github.com/Mamiololo01/Fundamentals_of_Docker/assets/67044030/d654ad4a-1779-4cba-85a3-be880da69588">
  		 
-refreshing the apt cache
+Refreshing the apt cache
 
 sudo apt update
 
 <img width="819" alt="Screenshot 2023-05-25 at 00 20 01" src="https://github.com/Mamiololo01/Fundamentals_of_Docker/assets/67044030/752f0771-d283-405b-90c0-eb6ed2262b52">
 
  		 
-selecting the docker repository as the default one
+Selecting the docker repository as the default one
 
 apt-cache policy docker-ce
 
 <img width="855" alt="Screenshot 2023-05-25 at 00 20 37" src="https://github.com/Mamiololo01/Fundamentals_of_Docker/assets/67044030/fbb3fd4e-9e74-4a3f-bda4-8703a799f745">
  		 
-installing docker
+Installing docker
 
 sudo apt install docker-ce docker-ce-cli containerd.io
 
@@ -58,7 +58,7 @@ sudo apt install docker-ce docker-ce-cli containerd.io
 
 
  		 
-checking its status
+Checking service status
 
 sudo systemctl status docker
 
@@ -85,13 +85,13 @@ docker container run hello-world
 
 <img width="860" alt="Screenshot 2023-05-25 at 00 26 04" src="https://github.com/Mamiololo01/Fundamentals_of_Docker/assets/67044030/46f7e872-1424-4748-8fd8-59f81bcfe1aa">
  		 
-getting help
+Getting help
 
-docker help
+Docker help
 
 docker MANAGEMENT_COMMAND help => Ex: docker container help
  		 
-searching for an image on Docker Hub
+Searching for an image on Docker Hub
 
 docker search IMAGE_NAME
 
@@ -99,20 +99,23 @@ docker search debian
 
 docker search mongo
  		 
-pulling an image from docker hub
+Pulling an image from docker hub
 
 docker image pull IMAGE_NAME:TAG
+
 docker image pull redis:5.0.10
+
 docker image pull ubuntu:latest
+
 docker image pull mysql # => by default tha name of the TAG is latest
  		 
-listing local images
+Listing local images
 
 docker images
 
 docker image ls
 		 
-running a container
+Running a container
 
 docker container run OPTIONS IMAGE_NAME
 
@@ -126,7 +129,7 @@ docker container ls -a # listing all containers
 
 docker container start CONTAINER_ID
 		 
-getting a shell into a container
+Getting a shell into a container
 
 docker container run -it centos # to detach from the container without stopping it press: Ctrl + P + Q
 
@@ -148,13 +151,13 @@ process listens on port Y in the container but is accessed on port X from the ou
 
 -P => publish all exposed ports to random ports
  		 
-listing local images
+Listing local images
 
 docker images # old command
 
 docker image ls # new command
  		 
-listing all running containers
+Listing all running containers
 
 docker ps # old command
 
@@ -163,24 +166,24 @@ docker container ls # new command
 -q => printing only the containers' ids
  		 
 
-listing all containers (created, running, stopped)
+Listing all containers (created, running, stopped)
 
 docker ps -a
 
 docker container ls -a
  		 
-filtering by status
+Filtering by status
 
 docker container ls -a -f status=exited
  		 
 
-stopping a container
+Stopping a container
 
 docker container stop CONTAINER_ID|CONTAINER_NAME
 
 Example: docker container stop mysite1
  		 
-removing a container (must be stopped)
+Removing a container (must be stopped)
 
 docker container rm CONTAINER_ID|CONTAINER_NAME
 
@@ -189,11 +192,11 @@ docker container rm CONTAINER_ID|CONTAINER_NAME
 Example: docker container rm mysite1
  		 
 
-removing all stopped containers
+Removing all stopped containers
 
 docker container rm $(docker container ls -f status=exited -q)
  		 
-removing an image
+Removing an image
 
 docker rmi IMAGE_NAME # => old command
 
@@ -201,19 +204,20 @@ docker image rm IMAGE_NAME # => new command
 
 Example: docker image rm nginx
 		 
-removing dangling images, stopped containers, dangling build cache and networks not used
+Removing dangling images, stopped containers, dangling build cache and networks not used
 
 docker system prune
 
 -a => remove unused images, as well
 
-getting shell access to the container
+Getting shell access to the container
 
 docker run -it --name=container1 centos => press Ctrl+P +Q to exit the container without stopping it
  		 
-getting a shell in a running container
+Getting a shell in a running container
 
 docker container exec -it CONTAINER_ID|CONTAINER_NAME bash
+
 Example: docker container exec -it container1 bash
  		 
 executing shell commands in running container
@@ -224,25 +228,26 @@ Examples: docker container exec container1 cat /etc/shadow
 
 docker container exec container1 yum -y install nmap
  		 
-stopping a running container
+Stopping a running container
 
 docker container stop CONTAINER_ID|CONTAINER_NAME
  		 
-starting a stopped container
+Starting a stopped container
 
 docker container start CONTAINER_ID|CONTAINER_NAME
  		 
-removing a stopped container
+Removing a stopped container
 
 docker container rm CONTAINER_ID|CONTAINER_NAME
 		 
-removing a running container
+Removing a running container
 
 docker container rm -f CONTAINER_ID|CONTAINER_NAME
 
 Commands - Committing Changes, Tagging and Pushing Images
 
 Commiting changes in a container to a new image
+
 STEP 1
 
 start the container, get shell access, make any changes and exit
@@ -293,21 +298,21 @@ creating a new volume
 
 docker volume create mysite
  		 
-listing all volumes
+Listing all volumes
 
 docker volume ls
  		 
-inspecting a volume
+Inspecting a volume
 
 docker volume inspect mysite
  		 
-removing a volume
+Removing a volume
 
 docker volume rm mysite
 
 docker volume prune     # => remove all unused volumes
  		 
-starting a container with the volume
+Starting a container with the volume
 
 docker container run -d --name mywebapp -p 80:80 -v mysite:/usr/share/nginx/html nginx
 
