@@ -42,10 +42,16 @@ sudo apt update
 selecting the docker repository as the default one
 
 apt-cache policy docker-ce
+
+<img width="855" alt="Screenshot 2023-05-25 at 00 20 37" src="https://github.com/Mamiololo01/Fundamentals_of_Docker/assets/67044030/fbb3fd4e-9e74-4a3f-bda4-8703a799f745">
  		 
 installing docker
 
 sudo apt install docker-ce docker-ce-cli containerd.io
+
+<img width="851" alt="Screenshot 2023-05-25 at 00 21 28" src="https://github.com/Mamiololo01/Fundamentals_of_Docker/assets/67044030/f339f102-c738-4c66-a35f-9458051225e3">
+
+
  		 
 checking its status
 
