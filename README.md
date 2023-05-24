@@ -1,4 +1,4 @@
-# Fundamental_of_Docker
+# Fundamentals_of_Docker
 Fundamentals of Docker, installation, commands, images, containers, volumes, pushing to Docker hub, build with Docker, integrate with other tools, debug and troubleshooting.
 
 What is a container?
