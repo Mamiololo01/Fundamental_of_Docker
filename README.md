@@ -6,8 +6,11 @@ What is a container?
 Simply put, a container is a sandboxed process on your machine that is isolated from all other processes on the host machine. That isolation leverages kernel namespaces and cgroups, features that have been in Linux for a long time. Docker has worked to make these capabilities approachable and easy to use. To summarize, a container:
 
 Is a runnable instance of an image. You can create, start, stop, move, or delete a container using the DockerAPI or CLI.
+
 Can be run on local machines, virtual machines or deployed to the cloud.
+
 Is portable (can be run on any OS).
+
 Is isolated from other containers and runs its own software, binaries, and configurations.
 
 What is a container image?
@@ -17,10 +20,12 @@ When running a container, it uses an isolated filesystem. This custom filesystem
 Installing Docker on Ubuntu 
  		 
 uninstalling any old versions
+
 sudo apt remove docker docker.io containerd runc
  		 
  		 
 adding Docker’s official GPG signing key:
+
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
  		 
  		 
