@@ -37,6 +37,7 @@ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubun
 
 <img width="858" alt="Screenshot 2023-05-25 at 00 19 24" src="https://github.com/Mamiololo01/Fundamentals_of_Docker/assets/67044030/d654ad4a-1779-4cba-85a3-be880da69588">
  		 
+
 Refreshing the apt cache
 
 sudo apt update
