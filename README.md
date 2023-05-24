@@ -54,6 +54,7 @@ apt-cache policy docker-ce
 
 <img width="855" alt="Screenshot 2023-05-25 at 00 20 37" src="https://github.com/Mamiololo01/Fundamentals_of_Docker/assets/67044030/fbb3fd4e-9e74-4a3f-bda4-8703a799f745">
  		 
+
 Installing docker
 
 sudo apt install docker-ce docker-ce-cli containerd.io
