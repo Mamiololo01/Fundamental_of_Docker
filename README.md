@@ -187,6 +187,10 @@ docker container run -d -p 80:80 --name mysite1 nginx
 docker container run -d -p 8080:80 --name mysite2 nginx
 
 docker container run -d -p 8081:80 --name mysite3 nginx
+
+
+<img width="1081" alt="Screenshot 2023-05-25 at 01 37 39" src="https://github.com/Mamiololo01/Fundamentals_of_Docker/assets/67044030/297680ce-b99d-438d-a043-bbd3dd9dcdb0">
+
 		 
 -d => detach and run in the background
 
