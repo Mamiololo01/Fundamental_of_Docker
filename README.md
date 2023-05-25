@@ -408,10 +408,15 @@ docker volume ls
 Inspecting a volume
 
 docker volume inspect mysite
+
+<img width="1090" alt="Screenshot 2023-05-25 at 02 37 51" src="https://github.com/Mamiololo01/Fundamentals_of_Docker/assets/67044030/3dafbc5f-49b9-45d4-9ba2-71a34b528fae">
+
  		 
 Removing a volume
 
 docker volume rm mysite
+
+<img width="807" alt="Screenshot 2023-05-25 at 02 38 29" src="https://github.com/Mamiololo01/Fundamentals_of_Docker/assets/67044030/eb1544e7-b308-487d-88b7-8bd914db5ef8">
 
 docker volume prune     # => remove all unused volumes
  		 
