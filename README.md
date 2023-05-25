@@ -144,7 +144,10 @@ Listing local images
 docker images
 
 docker image ls
-		 
+
+<img width="828" alt="Screenshot 2023-05-25 at 01 17 18" src="https://github.com/Mamiololo01/Fundamentals_of_Docker/assets/67044030/571cb92c-bcb8-4407-8f0e-bb93d23853e9">
+		
+		
 Running a container
 
 docker container run OPTIONS IMAGE_NAME
