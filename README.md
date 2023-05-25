@@ -174,6 +174,12 @@ Getting a shell into a container
 
 docker container run -it centos # to detach from the container without stopping it press: Ctrl + P + Q
 
+<img width="893" alt="Screenshot 2023-05-25 at 01 30 35" src="https://github.com/Mamiololo01/Fundamentals_of_Docker/assets/67044030/368a5c7e-38a9-44bd-851b-e7e9f4acced7">
+
+<img width="1111" alt="Screenshot 2023-05-25 at 01 30 44" src="https://github.com/Mamiololo01/Fundamentals_of_Docker/assets/67044030/56928631-9195-44e6-805b-5028e92c5407">
+
+
+
 Running a Web Server in a Docker Container ##
 
 docker container run -d --p 80:80 --name mysite1 nginx
