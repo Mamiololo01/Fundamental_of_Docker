@@ -237,6 +237,11 @@ docker container ls -a
 Filtering by status
 
 docker container ls -a -f status=exited
+
+<img width="1150" alt="Screenshot 2023-05-25 at 01 50 58" src="https://github.com/Mamiololo01/Fundamentals_of_Docker/assets/67044030/ec4ad358-4ef5-46db-bcbd-6c10f6efd765">
+
+<img width="1116" alt="Screenshot 2023-05-25 at 01 48 52" src="https://github.com/Mamiololo01/Fundamentals_of_Docker/assets/67044030/752884ae-1fda-4a05-a8f5-3eaddf0ce97f">
+
  		 
 
 Stopping a container
