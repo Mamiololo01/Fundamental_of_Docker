@@ -102,6 +102,9 @@ Getting help
 Docker help
 
 docker MANAGEMENT_COMMAND help => Ex: docker container help
+
+<img width="817" alt="Screenshot 2023-05-25 at 00 49 57" src="https://github.com/Mamiololo01/Fundamentals_of_Docker/assets/67044030/29c1ac5b-7037-4c06-948a-3f73dac57155">
+
  		 
 Searching for an image on Docker Hub
 
@@ -109,8 +112,14 @@ docker search IMAGE_NAME
 
 docker search debian
 
+<img width="1153" alt="Screenshot 2023-05-25 at 00 51 10" src="https://github.com/Mamiololo01/Fundamentals_of_Docker/assets/67044030/53bc861b-7345-422f-8ca5-6449f7223a86">
+
+
 docker search mongo
+
+<img width="1154" alt="Screenshot 2023-05-25 at 00 51 45" src="https://github.com/Mamiololo01/Fundamentals_of_Docker/assets/67044030/674b4708-6d08-4ffa-aa5f-109835099e51">
  		 
+		 
 Pulling an image from docker hub
 
 docker image pull IMAGE_NAME:TAG
