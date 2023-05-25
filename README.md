@@ -214,8 +214,14 @@ docker ps # old command
 
 docker container ls # new command
 
+<img width="1157" alt="Screenshot 2023-05-25 at 01 41 20" src="https://github.com/Mamiololo01/Fundamentals_of_Docker/assets/67044030/fe2c182a-1ce9-4788-9b32-74fa0b06f801">
+
+
 -q => printing only the containers' ids
+
  		 
+<img width="816" alt="Screenshot 2023-05-25 at 01 42 15" src="https://github.com/Mamiololo01/Fundamentals_of_Docker/assets/67044030/bd6d3702-60cd-46d8-930c-af7061f4c096">
+
 
 Listing all containers (created, running, stopped)
 
