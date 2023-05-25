@@ -272,10 +272,16 @@ docker rmi IMAGE_NAME # => old command
 docker image rm IMAGE_NAME # => new command
 
 Example: docker image rm nginx
+
+<img width="1163" alt="Screenshot 2023-05-25 at 01 57 20" src="https://github.com/Mamiololo01/Fundamentals_of_Docker/assets/67044030/a3e82edc-e1d1-4bc5-99a7-8dc3aedb6877">
+
 		 
 Removing dangling images, stopped containers, dangling build cache and networks not used
 
 docker system prune
+
+<img width="1117" alt="Screenshot 2023-05-25 at 01 57 55" src="https://github.com/Mamiololo01/Fundamentals_of_Docker/assets/67044030/bb7d178d-0f00-4888-8dd8-bd4382990802">
+
 
 -a => remove unused images, as well
 
