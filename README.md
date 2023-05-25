@@ -165,6 +165,9 @@ docker container create -P httpd
 
 docker container ls -a # listing all containers
 
+<img width="1142" alt="Screenshot 2023-05-25 at 01 23 47" src="https://github.com/Mamiololo01/Fundamentals_of_Docker/assets/67044030/f034b510-365a-4532-b45a-d8410c242a24">
+
+
 docker container start CONTAINER_ID
 		 
 Getting a shell into a container
