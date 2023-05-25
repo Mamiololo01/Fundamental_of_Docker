@@ -383,6 +383,10 @@ STEP 2
 
 docker login  => enter username and password
 
+<img width="1134" alt="Screenshot 2023-05-25 at 02 23 09" src="https://github.com/Mamiololo01/Fundamentals_of_Docker/assets/67044030/f77207fc-a8ed-4a24-ba8e-20a46d8f7485">
+
+<img width="1021" alt="Screenshot 2023-05-25 at 02 23 22" src="https://github.com/Mamiololo01/Fundamentals_of_Docker/assets/67044030/0bdfb5fa-d8cc-4351-9853-a6750f682032">
+
 STEP 3
 
 docker image push ddandrei/nginx:custom  # => the username on docker hub must match the image's repository (ddandrei)
