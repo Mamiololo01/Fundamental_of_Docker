@@ -370,6 +370,9 @@ docker image tag ddandrei/my_centos:latest mamiololo/my_centos:1.0
 
 docker image ls
 
+<img width="866" alt="Screenshot 2023-05-25 at 02 21 17" src="https://github.com/Mamiololo01/Fundamentals_of_Docker/assets/67044030/09fb922c-9413-4951-a09a-d647a3679db5">
+
+
 pushing custom images to docker Hub
 
 STEP 1
