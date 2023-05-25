@@ -126,9 +126,18 @@ docker image pull IMAGE_NAME:TAG
 
 docker image pull redis:5.0.10
 
+<img width="865" alt="Screenshot 2023-05-25 at 01 05 09" src="https://github.com/Mamiololo01/Fundamentals_of_Docker/assets/67044030/d9eba095-2a37-4d64-981c-fc985bbcb609">
+
+
 docker image pull ubuntu:latest
 
-docker image pull mysql # => by default tha name of the TAG is latest
+<img width="862" alt="Screenshot 2023-05-25 at 01 05 53" src="https://github.com/Mamiololo01/Fundamentals_of_Docker/assets/67044030/8af3775f-d32e-4afd-9474-3e4835ec00ba">
+
+
+docker image pull mysql # => by default the name of the TAG is latest
+
+<img width="1068" alt="Screenshot 2023-05-25 at 01 08 27" src="https://github.com/Mamiololo01/Fundamentals_of_Docker/assets/67044030/026deb5e-369d-4b17-81a0-86b8f154c829">
+
  		 
 Listing local images
 
