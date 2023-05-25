@@ -342,7 +342,7 @@ create a new image from the modified container
 
 docker commit -m "What did you do to the image" -a "Author Name" CONTAINER_ID|CONTAINER_NAME repository/new_image_name:tag
 
-Example: docker commit -m "nmap installed" -a "Andrei D." container1 ddandrei/my_centos
+Example: docker commit -m "nmap installed" -a Christopher." container3 mamiololo/my_centos
 
 <img width="1152" alt="Screenshot 2023-05-25 at 02 15 48" src="https://github.com/Mamiololo01/Fundamentals_of_Docker/assets/67044030/bbc06159-fdc8-4854-ad0e-f4d47ade2808">
 
@@ -355,13 +355,18 @@ docker image ls
 
 <img width="905" alt="Screenshot 2023-05-25 at 02 16 20" src="https://github.com/Mamiololo01/Fundamentals_of_Docker/assets/67044030/d22bd24d-36c6-4220-b8ff-5a3a0981c7c9">
 
-docker container run -it ddandrei/my_centos
+docker container run -it mamiololo/my_centos
 
 adding a new tag to an existing image
 
 docker image tag nginx ddandrei/nginx:custom
 
-docker image tag ddandrei/my_centos:latest ddandrei/my_centos:1.0
+docker image tag ddandrei/my_centos:latest mamiololo/my_centos:1.0
+
+<img width="1085" alt="Screenshot 2023-05-25 at 02 17 07" src="https://github.com/Mamiololo01/Fundamentals_of_Docker/assets/67044030/e182dc8f-7ab0-4f2c-9ccc-0978ace1805e">
+
+<img width="1119" alt="Screenshot 2023-05-25 at 02 20 56" src="https://github.com/Mamiololo01/Fundamentals_of_Docker/assets/67044030/5b3c3746-73a6-49f0-ae6b-648341b334e5">
+
 
 docker image ls
 
