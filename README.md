@@ -154,9 +154,14 @@ docker container run OPTIONS IMAGE_NAME
 
 docker container run -P httpd
 
+<img width="883" alt="Screenshot 2023-05-25 at 01 22 19" src="https://github.com/Mamiololo01/Fundamentals_of_Docker/assets/67044030/045ca9c5-3740-445b-9cc0-8e11842947cd">
+
 equivalent to:
 
 docker container create -P httpd
+
+<img width="851" alt="Screenshot 2023-05-25 at 01 22 45" src="https://github.com/Mamiololo01/Fundamentals_of_Docker/assets/67044030/56c338a4-bc22-4a6e-b782-a24cddd72454">
+
 
 docker container ls -a # listing all containers
 
