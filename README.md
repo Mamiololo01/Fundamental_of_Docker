@@ -389,7 +389,11 @@ docker login  => enter username and password
 
 STEP 3
 
-docker image push ddandrei/nginx:custom  # => the username on docker hub must match the image's repository (ddandrei)
+docker image push ddandrei/nginx:custom  # => the username on docker hub must match the image's repository (mamiololo)
+
+<img width="1084" alt="Screenshot 2023-05-25 at 02 25 09" src="https://github.com/Mamiololo01/Fundamentals_of_Docker/assets/67044030/8b1ce390-4c1b-452f-acde-0d45273849ef">
+
+<img width="914" alt="Screenshot 2023-05-25 at 02 25 27" src="https://github.com/Mamiololo01/Fundamentals_of_Docker/assets/67044030/67ee1f70-6d8b-4221-ac16-0cee513b3cb6">
 
 Commands - Volumes
 
