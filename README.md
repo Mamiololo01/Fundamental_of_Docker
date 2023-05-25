@@ -228,6 +228,11 @@ Listing all containers (created, running, stopped)
 docker ps -a
 
 docker container ls -a
+
+<img width="1157" alt="Screenshot 2023-05-25 at 01 45 26" src="https://github.com/Mamiololo01/Fundamentals_of_Docker/assets/67044030/e6f14fd4-119e-4a3c-8964-87e36ebe19a1">
+
+<img width="1156" alt="Screenshot 2023-05-25 at 01 45 54" src="https://github.com/Mamiololo01/Fundamentals_of_Docker/assets/67044030/a226f05f-c9e4-48a9-8347-8eed96862285">
+
  		 
 Filtering by status
 
