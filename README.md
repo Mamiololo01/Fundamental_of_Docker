@@ -346,14 +346,14 @@ Example: docker commit -m "nmap installed" -a "Andrei D." container1 ddandrei/my
 
 <img width="1152" alt="Screenshot 2023-05-25 at 02 15 48" src="https://github.com/Mamiololo01/Fundamentals_of_Docker/assets/67044030/bbc06159-fdc8-4854-ad0e-f4d47ade2808">
 
-<img width="905" alt="Screenshot 2023-05-25 at 02 16 20" src="https://github.com/Mamiololo01/Fundamentals_of_Docker/assets/67044030/d22bd24d-36c6-4220-b8ff-5a3a0981c7c9">
-
 
 STEP 3
 
 start containers from the image
 
 docker image ls
+
+<img width="905" alt="Screenshot 2023-05-25 at 02 16 20" src="https://github.com/Mamiololo01/Fundamentals_of_Docker/assets/67044030/d22bd24d-36c6-4220-b8ff-5a3a0981c7c9">
 
 docker container run -it ddandrei/my_centos
 
