@@ -182,11 +182,11 @@ docker container run -it centos # to detach from the container without stopping 
 
 Running a Web Server in a Docker Container ##
 
-docker container run -d --p 80:80 --name mysite1 nginx
+docker container run -d -p 80:80 --name mysite1 nginx
 
-docker container run -d --p 8080:80 --name mysite2 nginx
+docker container run -d -p 8080:80 --name mysite2 nginx
 
-docker container run -d --p 8081:80 --name mysite3 nginx
+docker container run -d -p 8081:80 --name mysite3 nginx
 		 
 -d => detach and run in the background
 
