@@ -288,6 +288,8 @@ docker system prune
 Getting shell access to the container
 
 docker run -it --name=container1 centos => press Ctrl+P +Q to exit the container without stopping it
+
+<img width="1145" alt="Screenshot 2023-05-25 at 01 59 31" src="https://github.com/Mamiololo01/Fundamentals_of_Docker/assets/67044030/ce2d7d5d-92eb-4e55-afe5-3190452d9695">
  		 
 Getting a shell in a running container
 
@@ -300,6 +302,9 @@ executing shell commands in running container
 docker container exec CONTAINER_ID|CONTAINER_NAME COMMAND
 
 Examples: docker container exec container1 cat /etc/shadow
+
+<img width="977" alt="Screenshot 2023-05-25 at 02 03 53" src="https://github.com/Mamiololo01/Fundamentals_of_Docker/assets/67044030/d1a0e099-5b3b-425a-b61f-a2fba37af61d">
+
 
 docker container exec container1 yum -y install nmap
  		 
