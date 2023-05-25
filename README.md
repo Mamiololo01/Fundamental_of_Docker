@@ -307,6 +307,8 @@ Examples: docker container exec container1 cat /etc/shadow
 
 
 docker container exec container1 yum -y install nmap
+
+<img width="1055" alt="Screenshot 2023-05-25 at 02 05 09" src="https://github.com/Mamiololo01/Fundamentals_of_Docker/assets/67044030/aecb9d2a-30bf-4bb1-9428-78ae3d36ae64">
  		 
 Stopping a running container
 
